@@ -1,0 +1,135 @@
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family: 'Oleo Script Swash Caps', cursive;
+   font-weight: bold;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+    
+}
+.container-fluid{
+    padding: 2% 10% 5%;
+}
+.rotated{
+    width: 50%;
+    transform: rotate(25deg);
+    padding-left: 2em;
+    position: absolute;
+
+}
+.btn-lg{
+    margin: 2.5em 0.5em;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.nav-item{
+    padding-right: 1em;
+}
+.navbar>.container-fluid{
+   
+    padding: 0 0 4.5em;
+   
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+   
+  
+}
+.feature{
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    color: #ef8172;
+    padding-bottom: 0.3em;
+}
+.icon:hover{
+    color:#ff4c68 ;
+}
+#testimonials{
+    
+    text-align: center;
+    color: white;
+    background-color: #ef8172;
+}
+h2{
+    font-size: 3rem;
+    font-family:'Ubuntu', sans-serif ;
+    font-weight: bold;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px 20px;
+}
+#press{
+    padding: 5% 14%;
+    padding-top: 0;
+    text-align: center;
+    background-color: #ef8172;
+}
+.press-image{
+
+    width: 15%;
+    padding: 10px 10px 10px 10px;
+}
+.carousel-item{
+    padding: 5% 15%;
+}
+#pricing{
+    padding: 4% 15%;
+    text-align: center;
+}
+.card{
+    margin: 1em .5em;
+}
+.row{
+    padding-top: 2em;
+}
+
+@media (max-width:1260px){
+  
+  #title{
+      text-align: center;
+  }
+    .rotated{
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta{
+   
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 5% 10%;
+}
+#cta h3{
+    font-size: 3rem;
+    font-family:'Ubuntu', sans-serif ;
+    font-weight: bold;
+}
+.temp{
+    padding-right: 4px;
+}
+#footer{
+    text-align: center;
+    padding: 5% 10%;
+}
+.temp1{
+   margin: 20px 10px;
+}
+
